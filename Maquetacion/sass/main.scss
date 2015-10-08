@@ -119,10 +119,16 @@ $font-level: 'quicksandbold';
   }
 
   #progress-bar{
+    width:337px;
+    height:105px;
+    background-image: url("../img/progress-bar.png");
+    background-position: 0 10px;
+    position: absolute;
+    right: 35%;
+
+
     span{
-      position: absolute;
-      left: 37%;
-      top: 5px;
+    margin-left: 23%;
     }
   }
 }

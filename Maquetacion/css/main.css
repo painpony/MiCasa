@@ -88,9 +88,16 @@
 .basic-nav #library:hover {
   background-position: 145px 0px;
 }
-/* line 122, ../sass/main.scss */
-.basic-nav #progress-bar span {
+/* line 121, ../sass/main.scss */
+.basic-nav #progress-bar {
+  width: 337px;
+  height: 105px;
+  background-image: url("../img/progress-bar.png");
+  background-position: 0 10px;
   position: absolute;
-  left: 37%;
-  top: 5px;
+  right: 35%;
+}
+/* line 130, ../sass/main.scss */
+.basic-nav #progress-bar span {
+  margin-left: 23%;
 }
