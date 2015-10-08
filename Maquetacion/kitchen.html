@@ -12,15 +12,20 @@
     <!-- Main CSS -->
     <link href="css/main.css" rel="stylesheet">
 
-
   </head>
-
 
   <body>
 
     <div class="container">
-      <nav class="navbar navbar-default">
-
+      <nav class="navbar basic-nav">
+        <ul>
+          <li id="home">
+          </li>
+          <li id="library">
+          </li>
+          <li id="diary">
+          </li>
+        </ul>
       </nav>
     </div>
 
@@ -29,6 +34,15 @@
     <script src="resources/jquery/jquery-1.11.3.min.js"></script>
     <!--Boostrap-->
     <script src="resources/bootstrap/js/bootstrap.min.js"></script>
-
+    <!-- My Scripts -->
+    <script type="text/javascript">
+    $('#home').mouseenter(function
+      (){
+        $(this).addClass('animated pulse');
+      });
+      $('#home').mouseleave(function(){
+        $(this).removeAttr('class')
+      });
+    </script>
   </body>
 </html>
