@@ -27,38 +27,43 @@
   font-weight: normal;
   font-style: normal;
 }
-/* line 57, ../sass/main.scss */
+/* Varibles */
+/* Main container for the app */
+/* line 65, ../sass/main.scss */
 .container {
   width: 1024px !important;
   height: 768px !important;
   background-image: url("../img/bg-kitchen.png");
 }
 
-/* line 63, ../sass/main.scss */
+/* line 71, ../sass/main.scss */
 .basic-nav {
   margin-top: 10px;
+  font-family: "quicksandbold";
+  font-size: 20px;
+  color: #d64e25;
 }
-/* line 66, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 .basic-nav ul {
   list-style: none;
   padding-right: 40px;
 }
-/* line 69, ../sass/main.scss */
+/* line 81, ../sass/main.scss */
 .basic-nav ul li {
   display: inline-block;
 }
-/* line 74, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
 .basic-nav #home {
   height: 76px;
   width: 83px;
   background-image: url("../img/sprite-nav-50.png");
   background-position: 89px 78px;
 }
-/* line 81, ../sass/main.scss */
+/* line 93, ../sass/main.scss */
 .basic-nav #home:hover {
   background-position: 89px 0px;
 }
-/* line 85, ../sass/main.scss */
+/* line 97, ../sass/main.scss */
 .basic-nav #diary {
   float: right;
   margin-right: 30px;
@@ -67,11 +72,11 @@
   background-image: url("../img/sprite-nav-50.png");
   background-position: -3px 78px;
 }
-/* line 93, ../sass/main.scss */
+/* line 105, ../sass/main.scss */
 .basic-nav #diary:hover {
   background-position: -3px 0px;
 }
-/* line 97, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 .basic-nav #library {
   float: right;
   height: 76px;
@@ -79,7 +84,13 @@
   background-image: url("../img/sprite-nav-50.png");
   background-position: 145px 78px;
 }
-/* line 105, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 .basic-nav #library:hover {
   background-position: 145px 0px;
+}
+/* line 122, ../sass/main.scss */
+.basic-nav #progress-bar span {
+  position: absolute;
+  left: 37%;
+  top: 5px;
 }

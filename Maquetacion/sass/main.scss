@@ -53,7 +53,15 @@
 
 }
 
+/* Varibles */
 
+$font-level: 'quicksandbold';
+
+
+
+
+
+/* Main container for the app */
 .container{
   width:1024px !important;
   height:768px !important;
@@ -62,6 +70,10 @@
 
 .basic-nav{
   margin-top: 10px;
+  font-family: $font-level;
+  font-size: 20px;
+  color: #d64e25;
+
 
   ul{
     list-style: none;
@@ -104,5 +116,13 @@
 
   #library:hover{
     background-position: 145px 0px;
+  }
+
+  #progress-bar{
+    span{
+      position: absolute;
+      left: 37%;
+      top: 5px;
+    }
   }
 }
