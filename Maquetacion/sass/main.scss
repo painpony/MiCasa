@@ -55,10 +55,11 @@
 
 /* Varibles */
 
-$font-level: 'quicksandbold';
+$font-titles: 'quicksandbold';
 
+/* Imports */
 
-
+@import 'kitchen';
 
 
 /* Main container for the app */
@@ -78,83 +79,10 @@ $font-level: 'quicksandbold';
   position: absolute;
 }
 
-  .fridge{
-    bottom:103px;
-    right:71px;
-    width:253px;
-    height: 514px;
-    background-image: url("../img/kitchen-fridge.png");
-  }
-
-  .mixer{
-    bottom:327px;
-    right:415px;
-    width:91px;
-    height:100px;
-    background-image: url("../img/kitchen-mixer.png");
-  }
-
-  .pot{
-    bottom:341px;
-    left:212px;
-    width:129px;
-    height: 70px;
-    background-image: url("../img/kitchen-pot.png");
-  }
-  .toaster{
-    top:262px;
-    left:35px;
-    width:83px;
-    height: 52px;
-    background-image: url("../img/kitchen-toaster.png");
-  }
-  .coffee{
-    top:174px;
-    left:190px;
-    width:45px;
-    height: 48px;
-    background-image: url("../img/kitchen-coffee.png");
-  }
-  .mug{
-    top:269px;
-    left:190px;
-    width:48px;
-    height: 42px;
-    background-image: url("../img/kitchen-mug.png");
-  }
-
-  .chocolate{
-    top:255px;
-    left:150px;
-    width:32px;
-    height: 56px;
-    background-image: url("../img/kitchen-chocolate.png");
-  }
-  .transparent-container{
-    top:170px;
-    left:155px;
-    width:24px;
-    height: 53px;
-    background-image: url("../img/kitchen-container.png");
-  }
-  .small-container{
-    top:178px;
-    left:35px;
-    width:37px;
-    height: 45px;
-    background-image: url("../img/kitchen-container2.png");
-  }
-  .transparent-small-container{
-    top:178px;
-    left:77px;
-    width:39px;
-    height: 42px;
-    background-image: url("../img/kitchen-container3.png");
-  }
-
+/* Basic Navigation for the entire app */
 .basic-nav{
   margin-top: 10px;
-  font-family: $font-level;
+  font-family: $font-titles;
   font-size: 20px;
   color: #d64e25;
 
@@ -214,5 +142,118 @@ $font-level: 'quicksandbold';
     span{
     margin-left: 23%;
     }
+  }
+}
+
+/* Menu or Home to choose parts of the house */
+.container{
+  .menu{
+    width:994px;
+    height:748px;
+    background:url("../img/bg-menu.png");
+    position: absolute;
+    top:0;
+    z-index: 100;
+    opacity: 0.9 !important;
+    display:none;
+    margin-top: 10px;
+
+    span{
+      font-family: $font-titles;
+      color:#d64e25;
+      font-size: 35px;
+      margin-left: 25%;
+      margin-top: 32px;
+      position: absolute;
+    }
+
+    p{
+      font-family: $font-titles;
+      font-size: 20px;
+      color:#d25544;
+    }
+    .bed{
+      top:324px;
+      left: 139px;
+    }
+    .kit{
+      top:324px;
+      left: 351px;
+    }
+    .liv{
+      top:324px;
+      left: 560px;
+    }
+    .din{
+      top:324px;
+      left: 786px;
+    }
+    .bath{
+      top:595px;
+      left: 139px;
+    }
+    .back{
+      top:595px;
+      left: 362px;
+    }
+    .exit{
+      width:53px;
+      height:53px;
+      background: url("../img/icon-close.png");
+      right:50px;
+      top:25px;
+    }
+
+    .bedroom{
+      width:269px;
+      height:198px;
+      background: url("../img/menu-bedroom.png");
+      top:130px;
+      margin-left: 40px;
+    }
+
+    .kitchen{
+      width:179px;
+      height:222px;
+      background: url("../img/menu-kitchen.png");
+      top:114px;
+      left: 293px;
+    }
+
+    .living{
+      width:231px;
+      height:170px;
+      background: url("../img/menu-living.png");
+      top:160px;
+      left: 466px;
+    }
+
+    .dinning{
+      width:223px;
+      height:197px;
+      background: url("../img/menu-dinning.png");
+      top:136px;
+      right: 49px;
+    }
+
+    .bathroom{
+      width:203px;
+      height:179px;
+      background: url("../img/menu-bathroom.png");
+      top:408px;
+      left:54px;
+    }
+
+    .backyard{
+      width:190px;
+      height:207px;
+      background: url("../img/menu-backyard.png");
+      top:386px;
+      left:292px;
+    }
+
+  }
+  .opt{
+    position: absolute;
   }
 }

@@ -11,9 +11,7 @@
     <link href="resources/animate/animate.css" rel="stylesheet">
     <!-- Main CSS -->
     <link href="css/main.css" rel="stylesheet">
-
   </head>
-
   <body>
 
     <div class="container">
@@ -43,7 +41,27 @@
           </li>
         </ul>
       </nav>
-    </div>
+      <!--Home or Menu -->
+      <div class="menu animated fadeIn ">
+        <span class="opt">Escoge un lugar de la casa: </span>
+        <div class="exit opt"> </div>
+        <div class="bedroom opt"> </div>
+        <p class="opt bed">Cuarto </p>
+        <div class="kitchen opt"> </div>
+        <p class="opt kit">Cocina </p>
+        <div class="living opt"> </div>
+        <p class="opt liv">Sala</p>
+        <div class="dinning opt"> </div>
+        <p class="opt din">Comedor</p>
+        <div class="bathroom opt"> </div>
+        <p class="opt bath">Baño</p>
+        <div class="backyard opt"> </div>
+        <p class="opt back">Patio</p>
+
+
+
+      </div>
+    </div> <!-- Container END-->
 
     <!--JS-->
     <!--Jquery-->
@@ -59,6 +77,32 @@
       $('#home').mouseleave(function(){
         $(this).removeAttr('class')
       });
+// Diary effect
+      $('#diary').mouseenter(function
+        (){
+          $(this).addClass('animated pulse');
+        });
+        $('#diary').mouseleave(function(){
+          $(this).removeAttr('class')
+      });
+// Library effect
+      $('#library').mouseenter(function
+        (){
+          $(this).addClass('animated pulse');
+        });
+        $('#library').mouseleave(function(){
+          $(this).removeAttr('class')
+      });
+// Display menu
+      $('#home').click(function
+        (){
+          $('.menu').css({"display":"block"});
+        });
+// Close menu
+        $('.exit').click(function
+          (){
+            $('.menu').addClass('fadeOut');
+          });
     </script>
   </body>
 </html>
