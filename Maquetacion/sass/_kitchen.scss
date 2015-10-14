@@ -1,14 +1,21 @@
+/* Change the background */
+.kitchen{
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  background-image: url("../img/bg-kitchen.png");
+}
 
   .fridge{
-    bottom:103px;
-    right:57px;
+    bottom:99px;
+    right:46px;
     width:276px;
     height: 540px;
     background-image: url("../img/kitchen-fridge.png");
   }
 
   .mixer{
-    bottom:321px;
+    bottom:322px;
     right:415px;
     width:103px;
     height:113px;
@@ -17,14 +24,14 @@
 
   .pot{
     bottom:341px;
-    left:212px;
+    left:222px;
     width:129px;
     height: 70px;
     background-image: url("../img/kitchen-pot.png");
   }
   .toaster{
     top:262px;
-    left:35px;
+    left:47px;
     width:83px;
     height: 52px;
     background-image: url("../img/kitchen-toaster.png");
@@ -38,7 +45,7 @@
   }
   .mug{
     top:269px;
-    left:190px;
+    left:205px;
     width:48px;
     height: 42px;
     background-image: url("../img/kitchen-mug.png");
@@ -46,7 +53,7 @@
 
   .chocolate{
     top:250px;
-    left:150px;
+    left:160px;
     width:36px;
     height:63px;
     background-image: url("../img/kitchen-chocolate.png");
@@ -60,14 +67,14 @@
   }
   .small-container{
     top:167px;
-    left:29px;
+    left:46px;
     width:46px;
     height:56px;
     background-image: url("../img/kitchen-container2.png");
   }
   .transparent-small-container{
     top:178px;
-    left:77px;
+    left:93px;
     width:39px;
     height: 42px;
     background-image: url("../img/kitchen-container3.png");
