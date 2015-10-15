@@ -256,3 +256,29 @@ $font-titles: 'quicksandbold';
     top:40px;
   }
 }
+
+/* Bedroom styles */
+
+
+.bedroom{
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  background-image: url("../img/bg-bedroom.png");
+}
+
+.pillow{
+  width: 74px;
+  height: 60px;
+  background-image: url("../img/bedroom-pillow.png");
+  top:380px;
+  right:228px;
+}
+.backpack{
+  width: 103px;
+  height:163px;
+  background-image: url("../img/bedroom-backpack.png");
+  top:525px;
+  right: 228px;
+  
+}

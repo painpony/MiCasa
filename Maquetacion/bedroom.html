@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi Casa</title>
+
+    <!--Styles -->
+    <!-- Bootstrap -->
+    <link href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="resources/animate/animate.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="bedroom">
+        <div class="objects beach-ball"> </div>
+        <div class="objects purple-box"> </div>
+        <div class="objects blue-box"> </div>
+        <div class="objects train"> </div>
+        <div class="objects green-lego"> </div>
+        <div class="objects backpack"> </div>
+        <div class="objects blue-notebook"> </div>
+        <div class="objects green-notebook"> </div>
+        <div class="objects pillow"> </div>
+        <div class="objects crayon"> </div>
+
+      </div>
+      <nav class="navbar basic-nav">
+        <ul>
+          <li id="home">
+          </li>
+          <li id="progress-bar">
+            <span>Nivel 1: Cuarto </span>
+          </li>
+          <li id="library">
+          </li>
+          <li id="diary">
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--JS-->
+    <!--Jquery-->
+    <script src="resources/jquery/jquery-1.11.3.min.js"></script>
+    <!--Boostrap-->
+    <script src="resources/bootstrap/js/bootstrap.min.js"></script>
+    <!-- My Scripts -->
+    <script type="text/javascript">
+    $('#home').mouseenter(function
+      (){
+        $(this).addClass('animated pulse');
+      });
+      $('#home').mouseleave(function(){
+        $(this).removeAttr('class')
+      });
+    </script>
+  </body>
+</html>

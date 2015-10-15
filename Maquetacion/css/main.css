@@ -6,6 +6,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'quicksandbold_italic';
   src: url("../fonts/quicksand-bolditalic-webfont.eot");
@@ -13,6 +14,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'quicksanditalic';
   src: url("../fonts/quicksand-italic-webfont.eot");
@@ -20,6 +22,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'quicksandregular';
   src: url("../fonts/quicksand-regular-webfont.eot");
@@ -27,10 +30,10 @@
   font-weight: normal;
   font-style: normal;
 }
+
 /* Varibles */
 /* Imports */
 /* Change the background */
-/* line 2, ../sass/_kitchen.scss */
 .kitchen {
   position: absolute;
   width: 1024px;
@@ -38,7 +41,6 @@
   background-image: url("../img/bg-kitchen.png");
 }
 
-/* line 9, ../sass/_kitchen.scss */
 .fridge {
   bottom: 99px;
   right: 46px;
@@ -47,7 +49,6 @@
   background-image: url("../img/kitchen-fridge.png");
 }
 
-/* line 17, ../sass/_kitchen.scss */
 .mixer {
   bottom: 322px;
   right: 415px;
@@ -56,7 +57,6 @@
   background-image: url("../img/kitchen-mixer.png");
 }
 
-/* line 25, ../sass/_kitchen.scss */
 .pot {
   bottom: 341px;
   left: 222px;
@@ -65,7 +65,6 @@
   background-image: url("../img/kitchen-pot.png");
 }
 
-/* line 32, ../sass/_kitchen.scss */
 .toaster {
   top: 262px;
   left: 47px;
@@ -74,7 +73,6 @@
   background-image: url("../img/kitchen-toaster.png");
 }
 
-/* line 39, ../sass/_kitchen.scss */
 .coffee {
   top: 165px;
   left: 186px;
@@ -83,7 +81,6 @@
   background-image: url("../img/kitchen-coffee.png");
 }
 
-/* line 46, ../sass/_kitchen.scss */
 .mug {
   top: 269px;
   left: 205px;
@@ -92,7 +89,6 @@
   background-image: url("../img/kitchen-mug.png");
 }
 
-/* line 54, ../sass/_kitchen.scss */
 .chocolate {
   top: 250px;
   left: 160px;
@@ -101,7 +97,6 @@
   background-image: url("../img/kitchen-chocolate.png");
 }
 
-/* line 61, ../sass/_kitchen.scss */
 .transparent-container {
   top: 170px;
   left: 155px;
@@ -110,7 +105,6 @@
   background-image: url("../img/kitchen-container.png");
 }
 
-/* line 68, ../sass/_kitchen.scss */
 .small-container {
   top: 167px;
   left: 46px;
@@ -119,7 +113,6 @@
   background-image: url("../img/kitchen-container2.png");
 }
 
-/* line 75, ../sass/_kitchen.scss */
 .transparent-small-container {
   top: 178px;
   left: 93px;
@@ -129,46 +122,43 @@
 }
 
 /* Main container for the app */
-/* line 65, ../sass/main.scss */
 .container {
   width: 1024px !important;
   height: 768px !important;
 }
 
-/* line 71, ../sass/main.scss */
 .objects {
   position: absolute;
 }
 
 /* Basic Navigation for the entire app */
-/* line 76, ../sass/main.scss */
 .basic-nav {
   margin-top: 10px;
   font-family: "quicksandbold";
   font-size: 20px;
   color: #d64e25;
 }
-/* line 83, ../sass/main.scss */
+
 .basic-nav ul {
   list-style: none;
   padding-right: 40px;
 }
-/* line 86, ../sass/main.scss */
+
 .basic-nav ul li {
   display: inline-block;
 }
-/* line 91, ../sass/main.scss */
+
 .basic-nav #home {
   height: 76px;
   width: 83px;
   background-image: url("../img/sprite-nav-50.png");
   background-position: 89px 78px;
 }
-/* line 98, ../sass/main.scss */
+
 .basic-nav #home:hover {
   background-position: 89px 0px;
 }
-/* line 102, ../sass/main.scss */
+
 .basic-nav #diary {
   float: right;
   margin-right: 30px;
@@ -177,11 +167,11 @@
   background-image: url("../img/sprite-nav-50.png");
   background-position: -3px 78px;
 }
-/* line 110, ../sass/main.scss */
+
 .basic-nav #diary:hover {
   background-position: -3px 0px;
 }
-/* line 114, ../sass/main.scss */
+
 .basic-nav #library {
   float: right;
   height: 76px;
@@ -189,11 +179,11 @@
   background-image: url("../img/sprite-nav-50.png");
   background-position: 145px 78px;
 }
-/* line 122, ../sass/main.scss */
+
 .basic-nav #library:hover {
   background-position: 145px 0px;
 }
-/* line 126, ../sass/main.scss */
+
 .basic-nav #progress-bar {
   width: 337px;
   height: 105px;
@@ -202,13 +192,12 @@
   position: absolute;
   right: 35%;
 }
-/* line 135, ../sass/main.scss */
+
 .basic-nav #progress-bar span {
   margin-left: 23%;
 }
 
 /* Menu or Home to choose parts of the house */
-/* line 143, ../sass/main.scss */
 .container .menu {
   width: 994px;
   height: 748px;
@@ -220,7 +209,7 @@
   display: none;
   margin-top: 10px;
 }
-/* line 154, ../sass/main.scss */
+
 .container .menu span {
   font-family: "quicksandbold";
   color: #d64e25;
@@ -229,43 +218,43 @@
   margin-top: 32px;
   position: absolute;
 }
-/* line 163, ../sass/main.scss */
+
 .container .menu p {
   font-family: "quicksandbold";
   font-size: 20px;
   color: #d25544;
 }
-/* line 168, ../sass/main.scss */
+
 .container .menu .bed {
   top: 324px;
   left: 139px;
 }
-/* line 172, ../sass/main.scss */
+
 .container .menu .kit {
   top: 324px;
   left: 351px;
 }
-/* line 176, ../sass/main.scss */
+
 .container .menu .liv {
   top: 324px;
   left: 560px;
 }
-/* line 180, ../sass/main.scss */
+
 .container .menu .din {
   top: 324px;
   left: 786px;
 }
-/* line 184, ../sass/main.scss */
+
 .container .menu .bath {
   top: 595px;
   left: 139px;
 }
-/* line 188, ../sass/main.scss */
+
 .container .menu .back {
   top: 595px;
   left: 362px;
 }
-/* line 192, ../sass/main.scss */
+
 .container .menu .exit {
   width: 53px;
   height: 53px;
@@ -273,7 +262,7 @@
   right: 50px;
   top: 25px;
 }
-/* line 200, ../sass/main.scss */
+
 .container .menu .bedroom {
   width: 269px;
   height: 198px;
@@ -281,7 +270,7 @@
   top: 130px;
   margin-left: 40px;
 }
-/* line 208, ../sass/main.scss */
+
 .container .menu .kitchen {
   width: 179px;
   height: 222px;
@@ -289,7 +278,7 @@
   top: 114px;
   left: 293px;
 }
-/* line 216, ../sass/main.scss */
+
 .container .menu .living {
   width: 231px;
   height: 170px;
@@ -297,7 +286,7 @@
   top: 160px;
   left: 466px;
 }
-/* line 224, ../sass/main.scss */
+
 .container .menu .dinning {
   width: 223px;
   height: 197px;
@@ -305,7 +294,7 @@
   top: 136px;
   right: 49px;
 }
-/* line 232, ../sass/main.scss */
+
 .container .menu .bathroom {
   width: 203px;
   height: 179px;
@@ -313,7 +302,7 @@
   top: 408px;
   left: 54px;
 }
-/* line 240, ../sass/main.scss */
+
 .container .menu .backyard {
   width: 190px;
   height: 207px;
@@ -321,13 +310,37 @@
   top: 386px;
   left: 292px;
 }
-/* line 249, ../sass/main.scss */
+
 .container .opt {
   position: absolute;
 }
-/* line 253, ../sass/main.scss */
+
 .container .opt-container {
   width: 100%;
   position: absolute;
   top: 40px;
+}
+
+/* Bedroom styles */
+.bedroom {
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  background-image: url("../img/bg-bedroom.png");
+}
+
+.pillow {
+  width: 74px;
+  height: 60px;
+  background-image: url("../img/bedroom-pillow.png");
+  top: 380px;
+  right: 228px;
+}
+
+.backpack {
+  width: 103px;
+  height: 163px;
+  background-image: url("../img/bedroom-backpack.png");
+  top: 525px;
+  right: 228px;
 }
