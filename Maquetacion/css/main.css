@@ -416,3 +416,25 @@
   top: 378px;
   right: 620px;
 }
+
+/* livingroom styles */
+.livingroom{
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  background-image: url("../img/bg-livingroom.png");
+}
+.tv{
+  width: 189px;
+  height: 114px;
+  background-image: url("../img/livingroom-tv.png");
+  top: 240px;
+  right: 76px;
+}
+/* bathroomstyles */
+.bathroom{
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  background-image: url("../img/bg-bathroom.png");
+}
