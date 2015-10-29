@@ -416,6 +416,22 @@
   top: 378px;
   right: 620px;
 }
+.crayons{
+  width: 77px;
+  height: 75px;
+  background-image: url("../img/bedroom-crayons.png");
+  top: 481px;
+  right: 800px;
+}
+.pc
+{
+  width: 170px;
+  height: 108px;
+  background-image: url("../img/bedroom-pc.png");
+  top: 255px;
+  right: 655px;
+}
+}
 
 /* livingroom styles */
 .livingroom{
