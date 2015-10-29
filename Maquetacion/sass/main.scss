@@ -59,6 +59,10 @@ $font-titles: 'quicksandbold';
 /* Imports */
 
 @import 'kitchen';
+@import 'livingroom';
+@import 'bedroom';
+@import 'bathroom';
+
 
 
 /* Main container for the app */
@@ -66,7 +70,6 @@ $font-titles: 'quicksandbold';
   width:1024px !important;
   height:768px !important;
 }
-
 
 .objects{
   position: absolute;
@@ -87,6 +90,8 @@ $font-titles: 'quicksandbold';
       display:inline-block;
     }
   }
+
+  /* Navigation Bar */
 
   #home{
     height:76px;
@@ -132,8 +137,12 @@ $font-titles: 'quicksandbold';
     right: 35%;
 
 
+
     span{
     margin-left: 23%;
+    }
+    .liv, .bath {
+      margin-left: 28%;
     }
   }
 }
@@ -150,6 +159,7 @@ $font-titles: 'quicksandbold';
     opacity: 0.9 !important;
     display:none;
     margin-top: 10px;
+    margin-left: 16px;
 
     span{
       font-family: $font-titles;
@@ -255,95 +265,4 @@ $font-titles: 'quicksandbold';
     position: absolute;
     top:40px;
   }
-}
-
-/* Bedroom styles */
-
-
-.bedroom{
-  position: absolute;
-  width: 1024px;
-  height: 768px;
-  background-image: url("../img/bg-bedroom.png");
-}
-
-.pillow{
-  width: 74px;
-  height: 60px;
-  background-image: url("../img/bedroom-pillow.png");
-  top:380px;
-  right:228px;
-}
-.backpack{
-  width: 117px;
-  height:185px;
-  background-image: url("../img/bedroom-backpack.png");
-  top:525px;
-  right: 228px;
-
-}
-.blue-box{
-  width: 120px;
-  height:75px;
-  background-image: url("../img/bedroom-blue-box.png");
-  top:280px;
-  right: 840px;
-
-}
-.purple-box{
-  width: 112px;
-  height: 81px;
-  background-image: url("../img/bedroom-purple-box.png");
-  top: 385px;
-  right: 840px;
-}
-.toys{
-  width: 130px;
-  height: 171px;
-  background-image: url("../img/bedroom-toys.png");
-  top:440px;
-  right:25px;
-}
-.sock{
-  width: 69px;
-  height: 49px;
-  background-image: url("../img/bedroom-sock.png");
-  top:620px;
-  right:900px;
-}
-.yellow-sock{
-  width: 81px;
-  height: 62px;
-  background-image: url("../img/bedroom-yellow-sock.png");
-  top:678px;
-  right:890px;
-}
-.green-sock{
-  width: 56px;
-  height: 28px;
-  background-image: url("../img/bedroom-green-sock.png");
-  top:620px;
-  right:825px;
-}
-.blue-sock{
-  width: 52px;
-  height:73px;
-  background-image: url("../img/bedroom-blue-sock.png");
-  top:678px;
-  right:825px;
-}
-.books{
-  width: 200px;
-  height:76px;
-  background-image: url("../img/bedroom-books.png");
-  top:240px;
-  right:207px;
-}
-.pig{
-  width:65px;
-  height:70px;
-  background-image: url("../img/bedroom-pig.png");
-  top: 378px;
-  right: 620px;
-
 }

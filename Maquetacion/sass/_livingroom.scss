@@ -1,0 +1,16 @@
+/* livingroom styles */
+
+/* Background */
+.livingroom{
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  background-image: url("../img/bg-livingroom.png");
+}
+.tv{
+  width: 200px;
+  height: 126px;
+  background-image: url("../img/livingroom-tv.png");
+  top: 299px;
+  right: 76px;
+}
