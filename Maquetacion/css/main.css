@@ -299,6 +299,20 @@
   top: 91px;
   right: 0px;
 }
+.paper{
+  width: 93px;
+  height: 64px;
+  background-image: url("../img/bathroom-paper.png");
+  top: 370px;
+  right: 513px;
+}
+.garbage{
+  width: 91px;
+  height: 121px;
+  background-image: url("../img/bathroom-garbage.png");
+  top: 440px;
+  right: 513px;
+}
 
 /* Main container for the app */
 /* line 69, ../sass/main.scss */
