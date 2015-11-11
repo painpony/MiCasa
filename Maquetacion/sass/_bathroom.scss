@@ -10,23 +10,24 @@
 /* Objects */
 
 .mirror{
-  width: 282px;
-  height: 200px;
+  width: 250px;
+  height: 194px;
   background-image: url("../img/bathroom-mirror.png");
   top: 110px;
-  right: 600px;
+  right: 616px;
 }
-.shampoo{
-  width: 195px;
-  height: 100px;
-  background-image: url("../img/bathroom-shampoo.png");
-  top: 150px;
-  right: 350px;
+
+.paper{
+  width: 93px;
+  height: 64px;
+  background-image: url("../img/bathroom-paper.png");
+  top: 370px;
+  right: 513px;
 }
-.shower{
-  width: 347px;
-  height: 580px;
-  background-image: url("../img/bathroom-shower.png");
-  top: 91px;
-  right: 0px;
+.garbage{
+  width: 91px;
+  height: 121px;
+  background-image: url("../img/bathroom-garbage.png");
+  top: 440px;
+  right: 513px;
 }
