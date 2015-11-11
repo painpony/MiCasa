@@ -118,10 +118,11 @@ $font-titles: 'quicksandbold';
 
   #library{
     float:right;
+    width: 56px;
     height:76px;
-    width: 57px;
     background-image: url("../img/sprite-nav-50.png");
     background-position: 145px 78px;
+    margin-right: -20px;
   }
 
   #library:hover{
@@ -160,6 +161,9 @@ $font-titles: 'quicksandbold';
     display:none;
     margin-top: 10px;
     margin-left: 16px;
+    -webkit-box-shadow: 0px 3px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 19px 0px rgba(0,0,0,0.75);
 
     span{
       font-family: $font-titles;
@@ -176,28 +180,28 @@ $font-titles: 'quicksandbold';
       color:#d25544;
     }
     .bed{
-      top:324px;
+      top:275px;
       left: 139px;
     }
     .kit{
-      top:324px;
+      top:275px;
       left: 351px;
     }
     .liv{
-      top:324px;
+      top:275px;
       left: 560px;
     }
     .din{
-      top:324px;
+      top:275px;
       left: 786px;
     }
     .bath{
-      top:595px;
+      top:553px;
       left: 139px;
     }
     .back{
-      top:595px;
-      left: 362px;
+      top:553px;
+      left: 358px;
     }
     .exit{
       width:53px;
@@ -211,7 +215,7 @@ $font-titles: 'quicksandbold';
       width:269px;
       height:198px;
       background: url("../img/menu-bedroom.png");
-      top:130px;
+      top:85px;
       margin-left: 40px;
     }
 
@@ -219,7 +223,7 @@ $font-titles: 'quicksandbold';
       width:179px;
       height:222px;
       background: url("../img/menu-kitchen.png");
-      top:114px;
+      top:66px;
       left: 293px;
     }
 
@@ -227,7 +231,7 @@ $font-titles: 'quicksandbold';
       width:231px;
       height:170px;
       background: url("../img/menu-living.png");
-      top:160px;
+      top:115px;
       left: 466px;
     }
 
@@ -235,7 +239,7 @@ $font-titles: 'quicksandbold';
       width:223px;
       height:197px;
       background: url("../img/menu-dinning.png");
-      top:136px;
+      top:97px;
       right: 49px;
     }
 
@@ -243,7 +247,7 @@ $font-titles: 'quicksandbold';
       width:203px;
       height:179px;
       background: url("../img/menu-bathroom.png");
-      top:408px;
+      top:374px;
       left:54px;
     }
 
@@ -251,7 +255,7 @@ $font-titles: 'quicksandbold';
       width:190px;
       height:207px;
       background: url("../img/menu-backyard.png");
-      top:386px;
+      top:347px;
       left:292px;
     }
 
@@ -264,5 +268,13 @@ $font-titles: 'quicksandbold';
     width: 100%;
     position: absolute;
     top:40px;
+  }
+
+  .vio{
+    width:417px;
+    height:425px;
+    background: url("../img/menu-violeta.png");
+    top:287px;
+    left:498px;
   }
 }

@@ -275,38 +275,24 @@
 /* Objects */
 /* line 12, ../sass/_bathroom.scss */
 .mirror {
-  width: 282px;
-  height: 200px;
+  width: 250px;
+  height: 194px;
   background-image: url("../img/bathroom-mirror.png");
   top: 110px;
-  right: 600px;
+  right: 616px;
 }
 
-/* line 19, ../sass/_bathroom.scss */
-.shampoo {
-  width: 195px;
-  height: 100px;
-  background-image: url("../img/bathroom-shampoo.png");
-  top: 150px;
-  right: 350px;
-}
-
-/* line 26, ../sass/_bathroom.scss */
-.shower {
-  width: 347px;
-  height: 580px;
-  background-image: url("../img/bathroom-shower.png");
-  top: 91px;
-  right: 0px;
-}
-.paper{
+/* line 20, ../sass/_bathroom.scss */
+.paper {
   width: 93px;
   height: 64px;
   background-image: url("../img/bathroom-paper.png");
   top: 370px;
   right: 513px;
 }
-.garbage{
+
+/* line 27, ../sass/_bathroom.scss */
+.garbage {
   width: 91px;
   height: 121px;
   background-image: url("../img/bathroom-garbage.png");
@@ -371,16 +357,17 @@
 /* line 119, ../sass/main.scss */
 .basic-nav #library {
   float: right;
+  width: 56px;
   height: 76px;
-  width: 57px;
   background-image: url("../img/sprite-nav-50.png");
   background-position: 145px 78px;
+  margin-right: -20px;
 }
-/* line 127, ../sass/main.scss */
+/* line 128, ../sass/main.scss */
 .basic-nav #library:hover {
   background-position: 145px 0px;
 }
-/* line 131, ../sass/main.scss */
+/* line 132, ../sass/main.scss */
 .basic-nav #progress-bar {
   width: 337px;
   height: 105px;
@@ -389,17 +376,17 @@
   position: absolute;
   right: 35%;
 }
-/* line 141, ../sass/main.scss */
+/* line 142, ../sass/main.scss */
 .basic-nav #progress-bar span {
   margin-left: 23%;
 }
-/* line 144, ../sass/main.scss */
+/* line 145, ../sass/main.scss */
 .basic-nav #progress-bar .liv, .basic-nav #progress-bar .bath {
   margin-left: 28%;
 }
 
 /* Menu or Home to choose parts of the house */
-/* line 152, ../sass/main.scss */
+/* line 153, ../sass/main.scss */
 .container .menu {
   width: 994px;
   height: 748px;
@@ -411,8 +398,11 @@
   display: none;
   margin-top: 10px;
   margin-left: 16px;
+  -webkit-box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.75);
 }
-/* line 164, ../sass/main.scss */
+/* line 168, ../sass/main.scss */
 .container .menu span {
   font-family: "quicksandbold";
   color: #d64e25;
@@ -421,43 +411,43 @@
   margin-top: 32px;
   position: absolute;
 }
-/* line 173, ../sass/main.scss */
+/* line 177, ../sass/main.scss */
 .container .menu p {
   font-family: "quicksandbold";
   font-size: 20px;
   color: #d25544;
 }
-/* line 178, ../sass/main.scss */
-.container .menu .bed {
-  top: 324px;
-  left: 139px;
-}
 /* line 182, ../sass/main.scss */
-.container .menu .kit {
-  top: 324px;
-  left: 351px;
+.container .menu .bed {
+  top: 275px;
+  left: 139px;
 }
 /* line 186, ../sass/main.scss */
-.container .menu .liv {
-  top: 324px;
-  left: 560px;
+.container .menu .kit {
+  top: 275px;
+  left: 351px;
 }
 /* line 190, ../sass/main.scss */
-.container .menu .din {
-  top: 324px;
-  left: 786px;
+.container .menu .liv {
+  top: 275px;
+  left: 560px;
 }
 /* line 194, ../sass/main.scss */
-.container .menu .bath {
-  top: 595px;
-  left: 139px;
+.container .menu .din {
+  top: 275px;
+  left: 786px;
 }
 /* line 198, ../sass/main.scss */
-.container .menu .back {
-  top: 595px;
-  left: 362px;
+.container .menu .bath {
+  top: 553px;
+  left: 139px;
 }
 /* line 202, ../sass/main.scss */
+.container .menu .back {
+  top: 553px;
+  left: 358px;
+}
+/* line 206, ../sass/main.scss */
 .container .menu .exit {
   width: 53px;
   height: 53px;
@@ -465,61 +455,69 @@
   right: 50px;
   top: 25px;
 }
-/* line 210, ../sass/main.scss */
+/* line 214, ../sass/main.scss */
 .container .menu .bedroom {
   width: 269px;
   height: 198px;
   background: url("../img/menu-bedroom.png");
-  top: 130px;
+  top: 85px;
   margin-left: 40px;
 }
-/* line 218, ../sass/main.scss */
+/* line 222, ../sass/main.scss */
 .container .menu .kitchen {
   width: 179px;
   height: 222px;
   background: url("../img/menu-kitchen.png");
-  top: 114px;
+  top: 66px;
   left: 293px;
 }
-/* line 226, ../sass/main.scss */
+/* line 230, ../sass/main.scss */
 .container .menu .living {
   width: 231px;
   height: 170px;
   background: url("../img/menu-living.png");
-  top: 160px;
+  top: 115px;
   left: 466px;
 }
-/* line 234, ../sass/main.scss */
+/* line 238, ../sass/main.scss */
 .container .menu .dinning {
   width: 223px;
   height: 197px;
   background: url("../img/menu-dinning.png");
-  top: 136px;
+  top: 97px;
   right: 49px;
 }
-/* line 242, ../sass/main.scss */
+/* line 246, ../sass/main.scss */
 .container .menu .bathroom {
   width: 203px;
   height: 179px;
   background: url("../img/menu-bathroom.png");
-  top: 408px;
+  top: 374px;
   left: 54px;
 }
-/* line 250, ../sass/main.scss */
+/* line 254, ../sass/main.scss */
 .container .menu .backyard {
   width: 190px;
   height: 207px;
   background: url("../img/menu-backyard.png");
-  top: 386px;
+  top: 347px;
   left: 292px;
 }
-/* line 259, ../sass/main.scss */
+/* line 263, ../sass/main.scss */
 .container .opt {
   position: absolute;
 }
-/* line 263, ../sass/main.scss */
+/* line 267, ../sass/main.scss */
 .container .opt-container {
   width: 100%;
   position: absolute;
   top: 40px;
+}
+/* line 273, ../sass/main.scss */
+.container .vio {
+  width: 417px;
+  height: 425px;
+  background: url("../img/menu-violeta.png");
+  top: 287px;
+  left: 498px;
 }
