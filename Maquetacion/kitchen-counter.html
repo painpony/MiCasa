@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi Casa</title>
+
+    <!--Styles -->
+    <!-- Bootstrap -->
+    <link href="resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="resources/animate/animate.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <!--Keep the container -->
+    <div class="container">
+      <!-- Change the name depending on the part of the house -->
+      <div class="kitchen-counter">
+        <!-- Use the class "objects" on all the items in the room apart from
+        the background -->
+        <div class="objects tomato"> </div>
+        <div class="objects avocado"> </div>
+        <div class="objects pizza"> </div>
+        <div class="objects ham"> </div>
+        <div class="objects orange"> </div>
+        <div class="objects watermelon"> </div>
+        <div class="objects grapes"> </div>
+
+        <div class="objects square"> </div>
+        <div class="objects circle"> </div>
+        <div class="objects triangle"> </div>
+
+
+
+
+
+      </div>
+      <!--Repeat this nav in every page -->
+      <nav class="navbar basic-nav">
+        <ul>
+          <li id="home">
+          </li>
+          <li id="progress-bar">
+            <span>Nivel 1: La Cocina </span>
+          </li>
+          <li id="library">
+          </li>
+          <li id="diary">
+          </li>
+        </ul>
+      </nav>
+      <!--Home or Menu -->
+      <div class="menu animated fadeIn ">
+        <span class="opt">Escoge un lugar de la casa: </span>
+        <div class="exit opt"> </div>
+        <div class="opt-container">
+          <a href="bedroom.html"><div class="bedroom opt"> </div></a>
+          <p class="opt bed">Cuarto </p>
+          <a href="kitchen.html"><div class="kitchen opt"> </div></a>
+          <p class="opt kit">Cocina </p>
+          <a href="livingroom.html"><div class="living opt"> </div></a>
+          <p class="opt liv">Sala</p>
+          <a href="diningroom.html"><div class="dinning opt"> </div></a>
+          <p class="opt din">Comedor</p>
+          <a href="bathroom.html"><div class="bathroom opt"> </div></a>
+          <p class="opt bath">Baño</p>
+          <a href="balcony.html"><div class="backyard opt"> </div></a>
+          <p class="opt back">Balcon</p>
+          <div class="vio opt"> </div>
+        </div>
+    </div> <!-- Container END-->
+
+    <!--JS-->
+    <!--Jquery-->
+    <script src="resources/jquery/jquery-1.11.3.min.js"></script>
+    <!--Boostrap-->
+    <script src="resources/bootstrap/js/bootstrap.min.js"></script>
+    <!-- My Scripts -->
+    <script type="text/javascript">
+    $('#home').mouseenter(function
+      (){
+        $(this).addClass('animated pulse');
+      });
+      $('#home').mouseleave(function(){
+        $(this).removeAttr('class')
+      });
+// Diary effect
+      $('#diary').mouseenter(function
+        (){
+          $(this).addClass('animated pulse');
+        });
+        $('#diary').mouseleave(function(){
+          $(this).removeAttr('class')
+      });
+// Library effect
+      $('#library').mouseenter(function
+        (){
+          $(this).addClass('animated pulse');
+        });
+        $('#library').mouseleave(function(){
+          $(this).removeAttr('class')
+      });
+// Display menu
+      $('#home').click(function
+        (){
+          $('.menu').css({"display":"block"});
+        });
+// Close menu
+        $('.exit').click(function
+          (){
+            $('.menu').addClass('fadeOut');
+          });
+    </script>
+  </body>
+</html>

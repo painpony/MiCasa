@@ -79,3 +79,95 @@
     height: 42px;
     background-image: url("../img/kitchen-container3.png");
   }
+
+
+  /* Kitchen Counter Close up */
+
+  .kitchen-counter{
+    position: absolute;
+    width: 1024px;
+    height: 768px;
+    background-image: url("../img/bg-kitchen-counter.png");
+  }
+
+/* Foods */
+  .tomato{
+    top:260px;
+    left:0px;
+    width:169px;
+    height:168px;
+    background-image: url("../img/kitchen-food-tomato.png");
+  }
+
+  .avocado{
+    top:231px;
+    left:129px;
+    width:176px;
+    height:206px;
+    background-image: url("../img/kitchen-food-avocado.png");
+  }
+
+  .pizza{
+    top:231px;
+    left:226px;
+    width:242px;
+    height:211px;
+    background-image: url("../img/kitchen-food-pizza.png");
+  }
+
+  .ham{
+    top:255px;
+    left:427px;
+    width:165px;
+    height:179px;
+    background-image: url("../img/kitchen-food-ham.png");
+  }
+
+  .orange{
+    top:255px;
+    left:560px;
+    width:171px;
+    height:169px;
+    background-image: url("../img/kitchen-food-orange.png");
+  }
+
+  .watermelon{
+    top:220px;
+    left:690px;
+    width:186px;
+    height:225px;
+    background-image: url("../img/kitchen-food-watermelon.png");
+  }
+
+  .grapes{
+    top:200px;
+    left:840px;
+    width:165px;
+    height:265px;
+    background-image: url("../img/kitchen-food-grapes.png");
+  }
+
+  /* Shapes */
+  .square{
+    bottom:34px;
+    left:132px;
+    width:154px;
+    height:155px;
+    background-image: url("../img/kitchen-square.png");
+  }
+
+  .circle{
+    bottom:34px;
+    left:448px;
+    width:160px;
+    height:160px;
+    background-image: url("../img/kitchen-circle.png");
+  }
+
+  .triangle{
+    bottom:40px;
+    left:751px;
+    width:165px;
+    height:144px;
+    background-image: url("../img/kitchen-triangle.png");
+  }

@@ -31,34 +31,6 @@
 /* Imports */
 /* Change the background */
 /* line 2, ../sass/_kitchen.scss */
-
-.balcony{
-  position: absolute;
-  width: 1024px;
-  height: 768px;
-  background-image: url("../img/bg-balcony.png");
-}
-.bike{
-  top: 300px;
-  left: 47px;
-  width: 461px;
-  height: 249px;
-  background-image: url("../img/balcony-bike.png");
-}
-.hose{
-  top: 600px;
-  left: 100px;
-  width: 186px;
-  height: 117px;
-  background-image: url("../img/balcony-hose.png");
-}
-.hammer{
-  top: 600px;
-  left: 500px;
-  width: 79px;
-  height: 146px;
-  background-image: url("../img/balcony-hammer.png");
-}
 .kitchen {
   position: absolute;
   width: 1024px;
@@ -154,6 +126,107 @@
   width: 39px;
   height: 42px;
   background-image: url("../img/kitchen-container3.png");
+}
+
+/* Kitchen Counter Close up */
+/* line 86, ../sass/_kitchen.scss */
+.kitchen-counter {
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  background-image: url("../img/bg-kitchen-counter.png");
+}
+
+/* Foods */
+/* line 94, ../sass/_kitchen.scss */
+.tomato {
+  top: 260px;
+  left: 0px;
+  width: 169px;
+  height: 168px;
+  background-image: url("../img/kitchen-food-tomato.png");
+}
+
+/* line 102, ../sass/_kitchen.scss */
+.avocado {
+  top: 231px;
+  left: 129px;
+  width: 176px;
+  height: 206px;
+  background-image: url("../img/kitchen-food-avocado.png");
+}
+
+/* line 110, ../sass/_kitchen.scss */
+.pizza {
+  top: 231px;
+  left: 226px;
+  width: 242px;
+  height: 211px;
+  background-image: url("../img/kitchen-food-pizza.png");
+}
+
+/* line 118, ../sass/_kitchen.scss */
+.ham {
+  top: 255px;
+  left: 427px;
+  width: 165px;
+  height: 179px;
+  background-image: url("../img/kitchen-food-ham.png");
+}
+
+/* line 126, ../sass/_kitchen.scss */
+.orange {
+  top: 255px;
+  left: 560px;
+  width: 171px;
+  height: 169px;
+  background-image: url("../img/kitchen-food-orange.png");
+}
+
+/* line 134, ../sass/_kitchen.scss */
+.watermelon {
+  top: 220px;
+  left: 690px;
+  width: 186px;
+  height: 225px;
+  background-image: url("../img/kitchen-food-watermelon.png");
+}
+
+/* line 142, ../sass/_kitchen.scss */
+.grapes {
+  top: 200px;
+  left: 840px;
+  width: 165px;
+  height: 265px;
+  background-image: url("../img/kitchen-food-grapes.png");
+}
+
+/* Shapes */
+/* line 151, ../sass/_kitchen.scss */
+.square {
+  bottom: 34px;
+  left: 132px;
+  width: 154px;
+  height: 155px;
+  background-image: url("../img/kitchen-square.png");
+}
+
+/* line 159, ../sass/_kitchen.scss */
+.circle {
+  bottom: 34px;
+  left: 448px;
+  width: 160px;
+  height: 160px;
+  background-image: url("../img/kitchen-circle.png");
+}
+
+/* line 167, ../sass/_kitchen.scss */
+.triangle {
+  bottom: 40px;
+  left: 751px;
+  width: 165px;
+  height: 144px;
+  background-image: url("../img/kitchen-triangle.png");
 }
 
 /* livingroom styles */
