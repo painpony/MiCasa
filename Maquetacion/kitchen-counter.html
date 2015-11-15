@@ -14,22 +14,22 @@
   </head>
   <body>
     <!--Keep the container -->
-    <div class="container">
+    <div id="babe-zone" class="container">
       <!-- Change the name depending on the part of the house -->
       <div class="kitchen-counter">
         <!-- Use the class "objects" on all the items in the room apart from
         the background -->
-        <div class="objects tomato"> </div>
-        <div class="objects avocado"> </div>
-        <div class="objects pizza"> </div>
-        <div class="objects ham"> </div>
-        <div class="objects orange"> </div>
-        <div class="objects watermelon"> </div>
-        <div class="objects grapes"> </div>
+        <div class="objects food circle tomato"> </div>
+        <div class="objects food weird avocado"> </div>
+        <div class="objects food triangle pizza"> </div>
+        <div class="objects food square ham"> </div>
+        <div class="objects food circle orange"> </div>
+        <div class="objects food triangle watermelon"> </div>
+        <div class="objects food weird grapes"> </div>
 
-        <div class="objects square"> </div>
-        <div class="objects circle"> </div>
-        <div class="objects triangle"> </div>
+        <div class="objects shape square"> </div>
+        <div class="objects shape circle"> </div>
+        <div class="objects shape triangle"> </div>
 
 
 
@@ -74,43 +74,10 @@
     <!--JS-->
     <!--Jquery-->
     <script src="resources/jquery/jquery-1.11.3.min.js"></script>
+    <script src="resources/jquery-ui/jquery-ui.min.js"></script>
     <!--Boostrap-->
     <script src="resources/bootstrap/js/bootstrap.min.js"></script>
     <!-- My Scripts -->
-    <script type="text/javascript">
-    $('#home').mouseenter(function
-      (){
-        $(this).addClass('animated pulse');
-      });
-      $('#home').mouseleave(function(){
-        $(this).removeAttr('class')
-      });
-// Diary effect
-      $('#diary').mouseenter(function
-        (){
-          $(this).addClass('animated pulse');
-        });
-        $('#diary').mouseleave(function(){
-          $(this).removeAttr('class')
-      });
-// Library effect
-      $('#library').mouseenter(function
-        (){
-          $(this).addClass('animated pulse');
-        });
-        $('#library').mouseleave(function(){
-          $(this).removeAttr('class')
-      });
-// Display menu
-      $('#home').click(function
-        (){
-          $('.menu').css({"display":"block"});
-        });
-// Close menu
-        $('.exit').click(function
-          (){
-            $('.menu').addClass('fadeOut');
-          });
-    </script>
+    <script type="text/javascript" src="js/kitchen/control.js"></script>
   </body>
 </html>
