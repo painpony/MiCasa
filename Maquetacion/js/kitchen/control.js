@@ -29,9 +29,7 @@ $('.exit').click(function () {
 });
 $('.food').draggable({
   containment: $('#babe-zone'),
-  revert: function () {
-    return true;
-  },
+  revert: true,
   stack: '.objects'
 });
 $('.shape').droppable({
