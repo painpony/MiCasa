@@ -1,3 +1,16 @@
+ion.sound({
+  sounds: [{
+      name: "good",
+      volume: 1
+    },
+    {
+      name: "bad",
+      volume: 1
+  }],
+  path: "sounds/",
+  preload: true
+});
+
 
 $('#home').mouseenter(function () {
   $(this).addClass('animated pulse');
@@ -37,6 +50,7 @@ $('.shape').droppable({
     var regExp = /^(circle|square|triangle)$/;
     var food = event.toElement;
     if (food.classList && food.classList.toString().match(/weird/)) {
+      ion.sound.play('bad');
       return;
     }
     var target = event.target;
@@ -56,6 +70,9 @@ $('.shape').droppable({
     }
     if (foodShape == targetShape) {
       event.toElement.remove();
+      ion.sound.play('good');
+    } else {
+      ion.sound.play('bad');
     }
   }
 });
