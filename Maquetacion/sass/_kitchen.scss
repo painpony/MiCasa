@@ -14,6 +14,15 @@
     background-image: url("../img/kitchen-fridge.png");
   }
 
+  .fridge:hover{
+    bottom:68px;
+    right:-123px;
+    width:439px;
+    height: 571px;
+    overflow-x: hidden;
+    background-image: url("../img/kitchen-fridge-open.png");
+  }
+
   .mixer{
     bottom:322px;
     right:415px;
@@ -91,39 +100,15 @@
   }
 
 /* Foods */
-  .tomato{
+
+  .circle.tomato{
     top:260px;
     left:0px;
     width:169px;
     height:168px;
     background-image: url("../img/kitchen-food-tomato.png");
   }
-
-  .avocado{
-    top:231px;
-    left:129px;
-    width:176px;
-    height:206px;
-    background-image: url("../img/kitchen-food-avocado.png");
-  }
-
-  .pizza{
-    top:231px;
-    left:226px;
-    width:242px;
-    height:211px;
-    background-image: url("../img/kitchen-food-pizza.png");
-  }
-
-  .ham{
-    top:255px;
-    left:427px;
-    width:165px;
-    height:179px;
-    background-image: url("../img/kitchen-food-ham.png");
-  }
-
-  .orange{
+  .circle.orange{
     top:255px;
     left:560px;
     width:171px;
@@ -131,12 +116,39 @@
     background-image: url("../img/kitchen-food-orange.png");
   }
 
-  .watermelon{
+  .square.ham{
+    top:255px;
+    left:427px;
+    width:165px;
+    height:179px;
+    background-image: url("../img/kitchen-food-ham.png");
+  }
+
+
+
+  .triangle.pizza{
+    top:231px;
+    left:226px;
+    width:242px;
+    height:211px;
+    background-image: url("../img/kitchen-food-pizza.png");
+  }
+
+  .triangle.watermelon{
     top:220px;
     left:690px;
     width:186px;
     height:225px;
     background-image: url("../img/kitchen-food-watermelon.png");
+  }
+
+
+  .avocado{
+    top:231px;
+    left:129px;
+    width:176px;
+    height:206px;
+    background-image: url("../img/kitchen-food-avocado.png");
   }
 
   .grapes{

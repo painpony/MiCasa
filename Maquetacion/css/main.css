@@ -48,6 +48,16 @@
 }
 
 /* line 17, ../sass/_kitchen.scss */
+.fridge:hover {
+  bottom: 68px;
+  right: -123px;
+  width: 439px;
+  height: 571px;
+  overflow-x: hidden;
+  background-image: url("../img/kitchen-fridge-open.png");
+}
+
+/* line 26, ../sass/_kitchen.scss */
 .mixer {
   bottom: 322px;
   right: 415px;
@@ -56,7 +66,7 @@
   background-image: url("../img/kitchen-mixer.png");
 }
 
-/* line 25, ../sass/_kitchen.scss */
+/* line 34, ../sass/_kitchen.scss */
 .pot {
   bottom: 341px;
   left: 222px;
@@ -65,7 +75,7 @@
   background-image: url("../img/kitchen-pot.png");
 }
 
-/* line 32, ../sass/_kitchen.scss */
+/* line 41, ../sass/_kitchen.scss */
 .toaster {
   top: 262px;
   left: 47px;
@@ -74,7 +84,7 @@
   background-image: url("../img/kitchen-toaster.png");
 }
 
-/* line 39, ../sass/_kitchen.scss */
+/* line 48, ../sass/_kitchen.scss */
 .coffee {
   top: 165px;
   left: 186px;
@@ -83,7 +93,7 @@
   background-image: url("../img/kitchen-coffee.png");
 }
 
-/* line 46, ../sass/_kitchen.scss */
+/* line 55, ../sass/_kitchen.scss */
 .mug {
   top: 269px;
   left: 205px;
@@ -92,7 +102,7 @@
   background-image: url("../img/kitchen-mug.png");
 }
 
-/* line 54, ../sass/_kitchen.scss */
+/* line 63, ../sass/_kitchen.scss */
 .chocolate {
   top: 250px;
   left: 160px;
@@ -101,7 +111,7 @@
   background-image: url("../img/kitchen-chocolate.png");
 }
 
-/* line 61, ../sass/_kitchen.scss */
+/* line 70, ../sass/_kitchen.scss */
 .transparent-container {
   top: 170px;
   left: 155px;
@@ -110,7 +120,7 @@
   background-image: url("../img/kitchen-container.png");
 }
 
-/* line 68, ../sass/_kitchen.scss */
+/* line 77, ../sass/_kitchen.scss */
 .small-container {
   top: 167px;
   left: 46px;
@@ -119,7 +129,7 @@
   background-image: url("../img/kitchen-container2.png");
 }
 
-/* line 75, ../sass/_kitchen.scss */
+/* line 84, ../sass/_kitchen.scss */
 .transparent-small-container {
   top: 178px;
   left: 93px;
@@ -129,7 +139,7 @@
 }
 
 /* Kitchen Counter Close up */
-/* line 86, ../sass/_kitchen.scss */
+/* line 95, ../sass/_kitchen.scss */
 .kitchen-counter {
   position: absolute;
   width: 1024px;
@@ -138,8 +148,8 @@
 }
 
 /* Foods */
-/* line 94, ../sass/_kitchen.scss */
-.tomato {
+/* line 104, ../sass/_kitchen.scss */
+.circle.tomato {
   top: 260px;
   left: 0px;
   width: 169px;
@@ -147,7 +157,43 @@
   background-image: url("../img/kitchen-food-tomato.png");
 }
 
-/* line 102, ../sass/_kitchen.scss */
+/* line 111, ../sass/_kitchen.scss */
+.circle.orange {
+  top: 255px;
+  left: 560px;
+  width: 171px;
+  height: 169px;
+  background-image: url("../img/kitchen-food-orange.png");
+}
+
+/* line 119, ../sass/_kitchen.scss */
+.square.ham {
+  top: 255px;
+  left: 427px;
+  width: 165px;
+  height: 179px;
+  background-image: url("../img/kitchen-food-ham.png");
+}
+
+/* line 129, ../sass/_kitchen.scss */
+.triangle.pizza {
+  top: 231px;
+  left: 226px;
+  width: 242px;
+  height: 211px;
+  background-image: url("../img/kitchen-food-pizza.png");
+}
+
+/* line 137, ../sass/_kitchen.scss */
+.triangle.watermelon {
+  top: 220px;
+  left: 690px;
+  width: 186px;
+  height: 225px;
+  background-image: url("../img/kitchen-food-watermelon.png");
+}
+
+/* line 146, ../sass/_kitchen.scss */
 .avocado {
   top: 231px;
   left: 129px;
@@ -156,43 +202,7 @@
   background-image: url("../img/kitchen-food-avocado.png");
 }
 
-/* line 110, ../sass/_kitchen.scss */
-.pizza {
-  top: 231px;
-  left: 226px;
-  width: 242px;
-  height: 211px;
-  background-image: url("../img/kitchen-food-pizza.png");
-}
-
-/* line 118, ../sass/_kitchen.scss */
-.ham {
-  top: 255px;
-  left: 427px;
-  width: 165px;
-  height: 179px;
-  background-image: url("../img/kitchen-food-ham.png");
-}
-
-/* line 126, ../sass/_kitchen.scss */
-.orange {
-  top: 255px;
-  left: 560px;
-  width: 171px;
-  height: 169px;
-  background-image: url("../img/kitchen-food-orange.png");
-}
-
-/* line 134, ../sass/_kitchen.scss */
-.watermelon {
-  top: 220px;
-  left: 690px;
-  width: 186px;
-  height: 225px;
-  background-image: url("../img/kitchen-food-watermelon.png");
-}
-
-/* line 142, ../sass/_kitchen.scss */
+/* line 154, ../sass/_kitchen.scss */
 .grapes {
   top: 200px;
   left: 840px;
@@ -202,7 +212,7 @@
 }
 
 /* Shapes */
-/* line 151, ../sass/_kitchen.scss */
+/* line 163, ../sass/_kitchen.scss */
 .square {
   bottom: 34px;
   left: 132px;
@@ -211,7 +221,7 @@
   background-image: url("../img/kitchen-square.png");
 }
 
-/* line 159, ../sass/_kitchen.scss */
+/* line 171, ../sass/_kitchen.scss */
 .circle {
   bottom: 34px;
   left: 448px;
@@ -220,7 +230,7 @@
   background-image: url("../img/kitchen-circle.png");
 }
 
-/* line 167, ../sass/_kitchen.scss */
+/* line 179, ../sass/_kitchen.scss */
 .triangle {
   bottom: 40px;
   left: 751px;
@@ -410,80 +420,6 @@
   top: 440px;
   right: 513px;
 }
-
-.balcony{
-  position: absolute;
-  width: 1024px;
-  height: 768px;
-  background-image: url("../img/bg-balcony.png");
-}
-.bike{
-  top: 350px;
-  left: 47px;
-  width: 369px;
-  height: 199px;
-  background-image: url("../img/balcony-bike.png");
-}
-.hose{
-  top: 500px;
-  left: 50px;
-  width: 186px;
-  height: 117px;
-  background-image: url("../img/balcony-hose.png");
-  display: none;
-}
-.hammer{
-  top: 600px;
-  left: 110px;
-  width: 79px;
-  height: 146px;
-  background-image: url("../img/balcony-hammer.png");
-  display: none;
-}
-.table{
-  top: 400px;
-  left: 500px;
-  width: 491px;
-  height: 303px;
-  background-image: url("../img/balcony-table.png");
-}
-.toy{
-  top: 670px;
-  left: 800px;
-  width: 78px;
-  height: 72px;
-  background-image: url("../img/balcony-toy.png");
-}
-.dogfood{
-  top: 500px;
-  left: 400px;
-  width: 161px;
-  height: 62px;
-  background-image: url("../img/balcony-dogfood.png");
-}
-.plant{
-  top: 340px;
-  left: 5px;
-  width: 138px;
-  height: 240px;
-  background-image: url("../img/balcony-plant.png");
-}
-.plant2{
-  top: 530px;
-  left: 5px;
-  width: 161px;
-  height: 85px;
-  background-image: url("../img/balcony-plant2.png");
-}
-.plant3{
-  top: 0px;
-  left: 720px;
-  width: 143px;
-  height: 272px;
-  background-image: url("../img/balcony-plant3.png");
-}
-
-
 
 /* Main container for the app */
 /* line 70, ../sass/main.scss */
