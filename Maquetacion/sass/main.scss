@@ -160,7 +160,6 @@ $font-titles: 'quicksandbold';
     position: absolute;
     top:0;
     z-index: 100;
-    opacity: 0.9 !important;
     display:none;
     margin-top: 10px;
     margin-left: 16px;
@@ -274,10 +273,10 @@ $font-titles: 'quicksandbold';
   }
 
   .vio{
-    width:417px;
-    height:425px;
+    width:375px;
+    height:416px;
     background: url("../img/menu-violeta.png");
-    top:287px;
-    left:498px;
+    top:297px;
+    left:522px;
   }
 }

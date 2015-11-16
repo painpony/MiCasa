@@ -39,7 +39,7 @@
         </ul>
       </nav>
       <!--Home or Menu -->
-      <div class="menu animated fadeIn ">
+      <div class="menu">
         <span class="opt">Escoge un lugar de la casa: </span>
         <div class="exit opt"> </div>
         <div class="opt-container">
@@ -65,40 +65,6 @@
     <!--Boostrap-->
     <script src="resources/bootstrap/js/bootstrap.min.js"></script>
     <!-- My Scripts -->
-    <script type="text/javascript">
-    $('#home').mouseenter(function
-      (){
-        $(this).addClass('animated pulse');
-      });
-      $('#home').mouseleave(function(){
-        $(this).removeAttr('class')
-      });
-// Diary effect
-      $('#diary').mouseenter(function
-        (){
-          $(this).addClass('animated pulse');
-        });
-        $('#diary').mouseleave(function(){
-          $(this).removeAttr('class')
-      });
-// Library effect
-      $('#library').mouseenter(function
-        (){
-          $(this).addClass('animated pulse');
-        });
-        $('#library').mouseleave(function(){
-          $(this).removeAttr('class')
-      });
-// Display menu
-      $('#home').click(function
-        (){
-          $('.menu').css({"display":"block"});
-        });
-// Close menu
-        $('.exit').click(function
-          (){
-            $('.menu').addClass('fadeOut');
-          });
-    </script>
+    <script src="js/menu.js"></script>
   </body>
 </html>

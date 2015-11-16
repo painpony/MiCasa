@@ -384,6 +384,15 @@
   display: none;
 }
 
+/* line 107, ../sass/_bedroom.scss */
+.pc {
+  width: 118px;
+  height: 96px;
+  background-image: url("../img/bedroom-pc.png");
+  top: 283px;
+  left: 218px;
+}
+
 /* Bathroom Styles */
 /* line 3, ../sass/_bathroom.scss */
 .bathroom {
@@ -606,7 +615,6 @@
   position: absolute;
   top: 0;
   z-index: 100;
-  opacity: 0.9 !important;
   display: none;
   margin-top: 10px;
   margin-left: 16px;
@@ -614,7 +622,7 @@
   -moz-box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.75);
 }
-/* line 171, ../sass/main.scss */
+/* line 170, ../sass/main.scss */
 .container .menu span {
   font-family: "quicksandbold";
   color: #d64e25;
@@ -623,43 +631,43 @@
   margin-top: 32px;
   position: absolute;
 }
-/* line 180, ../sass/main.scss */
+/* line 179, ../sass/main.scss */
 .container .menu p {
   font-family: "quicksandbold";
   font-size: 20px;
   color: #d25544;
 }
-/* line 185, ../sass/main.scss */
+/* line 184, ../sass/main.scss */
 .container .menu .bed {
   top: 275px;
   left: 139px;
 }
-/* line 189, ../sass/main.scss */
+/* line 188, ../sass/main.scss */
 .container .menu .kit {
   top: 275px;
   left: 351px;
 }
-/* line 193, ../sass/main.scss */
+/* line 192, ../sass/main.scss */
 .container .menu .liv {
   top: 275px;
   left: 560px;
 }
-/* line 197, ../sass/main.scss */
+/* line 196, ../sass/main.scss */
 .container .menu .din {
   top: 275px;
   left: 786px;
 }
-/* line 201, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 .container .menu .bath {
   top: 553px;
   left: 139px;
 }
-/* line 205, ../sass/main.scss */
+/* line 204, ../sass/main.scss */
 .container .menu .back {
   top: 553px;
   left: 358px;
 }
-/* line 209, ../sass/main.scss */
+/* line 208, ../sass/main.scss */
 .container .menu .exit {
   width: 53px;
   height: 53px;
@@ -667,7 +675,7 @@
   right: 50px;
   top: 25px;
 }
-/* line 217, ../sass/main.scss */
+/* line 216, ../sass/main.scss */
 .container .menu .bedroom {
   width: 269px;
   height: 198px;
@@ -675,7 +683,7 @@
   top: 85px;
   margin-left: 40px;
 }
-/* line 225, ../sass/main.scss */
+/* line 224, ../sass/main.scss */
 .container .menu .kitchen {
   width: 179px;
   height: 222px;
@@ -683,7 +691,7 @@
   top: 66px;
   left: 293px;
 }
-/* line 233, ../sass/main.scss */
+/* line 232, ../sass/main.scss */
 .container .menu .living {
   width: 231px;
   height: 170px;
@@ -691,7 +699,7 @@
   top: 115px;
   left: 466px;
 }
-/* line 241, ../sass/main.scss */
+/* line 240, ../sass/main.scss */
 .container .menu .dinning {
   width: 223px;
   height: 197px;
@@ -699,7 +707,7 @@
   top: 97px;
   right: 49px;
 }
-/* line 249, ../sass/main.scss */
+/* line 248, ../sass/main.scss */
 .container .menu .bathroom {
   width: 203px;
   height: 179px;
@@ -707,7 +715,7 @@
   top: 374px;
   left: 54px;
 }
-/* line 257, ../sass/main.scss */
+/* line 256, ../sass/main.scss */
 .container .menu .backyard {
   width: 190px;
   height: 207px;
@@ -715,21 +723,21 @@
   top: 347px;
   left: 292px;
 }
-/* line 266, ../sass/main.scss */
+/* line 265, ../sass/main.scss */
 .container .opt {
   position: absolute;
 }
-/* line 270, ../sass/main.scss */
+/* line 269, ../sass/main.scss */
 .container .opt-container {
   width: 100%;
   position: absolute;
   top: 40px;
 }
-/* line 276, ../sass/main.scss */
+/* line 275, ../sass/main.scss */
 .container .vio {
-  width: 417px;
-  height: 425px;
+  width: 375px;
+  height: 416px;
   background: url("../img/menu-violeta.png");
-  top: 287px;
-  left: 498px;
+  top: 297px;
+  left: 522px;
 }
