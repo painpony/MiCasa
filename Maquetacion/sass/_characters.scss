@@ -1,0 +1,25 @@
+/* Character styles */
+
+/* Background */
+.characters{
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  background-image: url("../img/bg-characters.png");
+}
+#violeta{
+  width: 456px;
+  height: 625px;
+  background-image: url("../img/character-violeta.png");
+  top: 110px;
+  position: absolute;
+}
+
+#samuel{
+  width: 478px;
+  height: 605px;
+  background-image: url("../img/character-samuel.png");
+  top: 130px;
+  right: 40px;
+  position: absolute;
+}

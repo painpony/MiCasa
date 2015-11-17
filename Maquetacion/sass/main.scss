@@ -64,7 +64,25 @@ $font-titles: 'quicksandbold';
 @import 'bedroom';
 @import 'bathroom';
 @import 'balcony';
+@import 'characters';
 
+
+/* Texture for body */
+
+body{
+  background-image: url("../img/bg-texture.png");
+  background-repeat: repeat;
+}
+
+/* Title */
+
+.title{
+  font-family: $font-titles;
+  color:#d64e25;
+  font-size: 35px;
+  margin-top: 32px;
+  text-align: center;
+}
 
 
 
@@ -153,7 +171,16 @@ $font-titles: 'quicksandbold';
 
 /* Menu or Home to choose parts of the house */
 .container{
-  .menu{
+
+  .awards{
+    background:url("../img/bg-awards.png") !important;
+
+    .award-span{
+      margin-left: 39% !important;
+    }
+  }
+
+  .menu, .awards{
     width:994px;
     height:748px;
     background:url("../img/bg-menu.png");
@@ -278,5 +305,55 @@ $font-titles: 'quicksandbold';
     background: url("../img/menu-violeta.png");
     top:297px;
     left:522px;
+  }
+
+  /* Awards */
+
+  .award-bedroom{
+    width:271px;
+    height:253px;
+    background: url("../img/award-bedroom.png");
+    top:85px;
+    margin-left: 40px;
+  }
+
+  .award-kitchen{
+    width:266px;
+    height:248px;
+    background: url("../img/award-kitchen.png");
+    top:85px;
+    left: 370px;
+  }
+
+  .award-livingroom{
+    width:272px;
+    height:252px;
+    background: url("../img/award-livingroom.png");
+    top:85px;
+    left: 680px;
+  }
+
+  .award-diningroom{
+    width:272px;
+    height:254px;
+    background: url("../img/award-diningroom.png");
+    top:374px;
+    margin-left: 40px;
+  }
+
+  .award-bathroom{
+    width:270px;
+    height:251px;
+    background: url("../img/award-bathroom.png");
+    top:374px;
+    left: 370px;
+  }
+
+  .award-balcony{
+    width:275px;
+    height:256px;
+    background: url("../img/award-balcony.png");
+    top:374px;
+    left: 680px;
   }
 }
